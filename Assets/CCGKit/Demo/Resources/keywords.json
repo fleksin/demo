@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Subtypes",
+        "values": [
+            {
+                "value": "Impetus"
+            },
+            {
+                "value": "Provoke"
+            },
+            {
+                "value": "Breakin"
+            }
+        ],
+        "id": 0
+    }
+]

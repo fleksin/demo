@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Creature",
+        "properties": [
+            {
+                "value": "Placeholder text",
+                "name": "Text",
+                "$type": "CCGKit.StringProperty"
+            },
+            {
+                "value": "Creature",
+                "name": "Picture",
+                "$type": "CCGKit.StringProperty"
+            },
+            {
+                "value": 4,
+                "name": "MaxCopies",
+                "$type": "CCGKit.IntProperty"
+            },
+            {
+                "value": null,
+                "name": "Material",
+                "$type": "CCGKit.StringProperty"
+            }
+        ],
+        "stats": [
+            {
+                "name": "Attack",
+                "baseValue": 1,
+                "originalValue": 1,
+                "minValue": 0,
+                "maxValue": 99,
+                "id": 0,
+                "$type": "CCGKit.CardStat"
+            },
+            {
+                "name": "Life",
+                "baseValue": 1,
+                "originalValue": 1,
+                "minValue": 0,
+                "maxValue": 99,
+                "id": 1,
+                "$type": "CCGKit.CardStat"
+            }
+        ],
+        "destroyConditions": [
+            {
+                "typeId": 0,
+                "statId": 1,
+                "op": "LessThanOrEqualTo",
+                "value": 0,
+                "$type": "CCGKit.StatDestroyCardCondition"
+            }
+        ],
+        "moveAfterTriggeringEffect": false,
+        "zoneId": 0,
+        "id": 0
+    },
+    {
+        "name": "Spell",
+        "properties": [
+            {
+                "value": "Placeholder text",
+                "name": "Text",
+                "$type": "CCGKit.StringProperty"
+            },
+            {
+                "value": "Spell",
+                "name": "Picture",
+                "$type": "CCGKit.StringProperty"
+            },
+            {
+                "value": 4,
+                "name": "MaxCopies",
+                "$type": "CCGKit.IntProperty"
+            },
+            {
+                "value": null,
+                "name": "Material",
+                "$type": "CCGKit.StringProperty"
+            }
+        ],
+        "stats": [],
+        "destroyConditions": [],
+        "moveAfterTriggeringEffect": true,
+        "zoneId": 3,
+        "id": 1
+    }
+]
